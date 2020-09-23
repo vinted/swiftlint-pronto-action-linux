@@ -1,6 +1,6 @@
 # Swiftlint pronto action linux
 
-This action runs swiftlint via pronto on pull requests.
+This action runs swiftlint via pronto on pull requests. Based on https://github.com/vinted/swiftlint-pronto-action and https://github.com/norio-nomura/action-swiftlint
 
 ## Usage
 
