@@ -1,0 +1,5 @@
+name: "PR lint"
+description: "Swiftlint pronto action using linux"
+runs:
+  using: "docker"
+  image: "Dockerfile"
