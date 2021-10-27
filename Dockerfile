@@ -19,7 +19,7 @@ RUN apt-get install -y ruby-full=$RUBY_REVISION && \
     gem install bundler:$BUNDLER_REVISION
 
 # Swiftlint
-RUN wget -qO- https://github.com/realm/SwiftLint/releases/download/0.45.0/swiftlint_linux.zip | bsdtar -xvf-
+RUN wget -qO- https://github.com/realm/SwiftLint/releases/download/0.40.3/swiftlint_linux.zip | bsdtar -xvf-
 RUN chmod +x swiftlint
 RUN mv swiftlint bin
 
